@@ -19,7 +19,7 @@ function requireHTTPS(req, res, next) {
 }
 
 //SET ASSOCIATE ID HERE
-const associateID = "5c53dd2bfb6fc064f733c2f9";
+const associateID = "5c55d9ead7716c000431db22";
 axios.get("https://myassociatesite-api.herokuapp.com/api/associate/id/" + associateID)
   .then(function (result) {
 
