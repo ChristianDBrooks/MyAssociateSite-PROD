@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href={{data.iconLink}}>
+    <title>{{data.companyName}}</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    {{{body}}}
+    <div class="row no-gutters bg-dark text-secondary px-5 pt-4">
+        <div class="col col-12 col-lg-4 text-center pb-3">
+            <h6 class="text-center text-light mb-3">Contact Us</h6>
+            <div class="d-flex justify-content-center">
+                <div class="text-left">
+                    {{!-- Brooks and Assoc, Scott Brooks, phone #, email --}}
+                    <p class="pr-2" style="font-size: .8rem">{{data.companyName}} <br>
+                        {{data.firstName}} {{data.lastName}}<br>
+                        {{data.phone}}<br>
+                        {{data.email}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="col col-12 col-lg-4">
+            <h6 class="text-light text-center mb-3">Follow Us On</h6>
+            <div class="text-center mb-4">
+                <a href={{data.fbLink}} target="_blank">
+                    <img class="ml-2" style="width: 30px" src="./images/social-icons/fb_white.png" alt="not Found">
+                </a>
+                <a href={{data.liLink}} target="_blank">
+                    <img class="ml-2" style="width: 30px" src="./images/social-icons/linkedin_white.png" alt="not Found">
+                </a>
+                {{!-- <a href={{data.igLink}}>
+                    <img class="ml-2" style="width: 30px" src="./images/social-icons/ig_white.png" alt="not Found">
+                </a> --}}
+            </div>
+        </div>
+        <div class="col col-12 col-lg-4 text-center pb-3">
+            <h6 class="text-center text-light mb-3">LegalShield Support</h6>
+            <div class="d-flex justify-content-center">
+                <div class="text-left">
+                    {{!-- Brooks and Assoc, Scott Brooks, phone #, email --}}
+                    <p class="pr-2" style="font-size: .8rem">Member Support: 800-654-7757<br>
+                        Associate Support: 580-436-7424<br>
+                        LS Small Business: 580-310-5825<br>
+                        Web Support: 800-699-9004 opt. 1,2,2<br>
+                        IDShield Support: 888-494-8519<br>
+                        <a href="https://api.legalshield.com/auth/authorize?response_type=code&client_id=7da36406057f44c3ad68440ea6fa7f338ea16e61ff244fd780368b1d68a1bc2a&redirect_uri=https%3A%2F%2Fonline.legalshield.com%2Fsite-login&state=4cc9cb4894deb233f0fc764746464c85"
+                            target="_blank">
+                            Associate Portal Login
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row no-gutters px-5 bg-dark text-secondary">
+        <div class="col col-12">
+            <div>
+                <p style="font-size: 0.7rem">
+                    {{data.companyName}} is an independent LegalShield associate. This website gives a general overview
+                    of the services we offer through LegalShield and IDShield. The benefits and prices described are
+                    not available in all states and Canadian provinces. For specific details on terms, coverage,
+                    pricing, conditions and exclusions in the Personal Legal Plans and IDShield plans please use the
+                    contact us page and request more information. LegalShield provides access to legal services offered
+                    by a network of provider law firms to LegalShield members and their covered family members through
+                    membership based participation. Neither LegalShield nor its officers, employees or sales associates
+                    directly or indirectly provide legal services, representation or advice. Case studies are actual
+                    LegalShield member experiences. Names and identities have been changed for attorney-client
+                    privilege requirements. For statistics on actual earnings please review the Income Disclosure
+                    Statement <a href="./dlc/Income-Disclosure-LegalShield.pdf">here.</a>
+                </p>
+                <p class="text-center text-secondary" style="font-size: 0.7rem">{{data.companyName}} {{data.year}}
+                    &copy;</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

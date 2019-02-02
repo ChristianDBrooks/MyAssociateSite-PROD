@@ -1,0 +1,11 @@
+.grow { 
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1); 
+}
+
+/* square edges - wider */
+#icon-scroll-blue::-webkit-scrollbar-button{ display: none; height: 13px; border-radius: 0px; background-color: #AAA; } #icon-scroll-blue::-webkit-scrollbar-button:hover{ background-color: #AAA; } #icon-scroll-blue::-webkit-scrollbar-thumb{ background-color: #369cfc; border-radius: 0px; } #icon-scroll-blue::-webkit-scrollbar-thumb:hover{ background-color: #2673bc; } #icon-scroll-blue::-webkit-scrollbar-track{ background-color: #ffffff; border-radius: 0px; } #icon-scroll-blue::-webkit-scrollbar-track:hover{ background-color: #ebebeb; } #icon-scroll-blue::-webkit-scrollbar{ width: 20px; }
+#icon-scroll-purp::-webkit-scrollbar-button{ display: none; height: 13px; border-radius: 0px; background-color: #AAA; } #icon-scroll-purp::-webkit-scrollbar-button:hover{ background-color: #AAA; } #icon-scroll-purp::-webkit-scrollbar-thumb{ background-color: #944A84; border-radius: 0px; } #icon-scroll-purp::-webkit-scrollbar-thumb:hover{ background-color: #944A84; } #icon-scroll-purp::-webkit-scrollbar-track{ background-color: #ffffff; border-radius: 0px; } #icon-scroll-purp::-webkit-scrollbar-track:hover{ background-color: #ebebeb; } #icon-scroll-purp::-webkit-scrollbar{ width: 20px; }

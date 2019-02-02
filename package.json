@@ -1,0 +1,27 @@
+{
+  "name": "LegalShieldMarket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChristianDBrooks/LegalShieldMarket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristianDBrooks/LegalShieldMarket/issues"
+  },
+  "homepage": "https://github.com/ChristianDBrooks/LegalShieldMarket#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "nodemailer": "^5.1.1"
+  }
+}
